@@ -48,7 +48,7 @@
     ],
     "moduleNameMapper": {
       "\\.(css|less|scss|sass)$": "identity-obj-proxy",
-      "\\.(jpg|ico|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js"
+      "\\.(jpg|jpeg|png|gif|webp|svg)$": "<rootDir>/__mocks__/fileMock.js"
     },
     "collectCoverageFrom": [
       "src/**/*.{js,jsx,ts,tsx}",
@@ -63,7 +63,7 @@
     ],
     "coveragePathIgnorePatterns": [
       "/node_modules/",
-      "setup-test.ts",
+      "setup-tests.ts",
       "vite-env.d.ts"
     ],
     "transform": {
